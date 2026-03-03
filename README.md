@@ -1,66 +1,50 @@
-## Problem Statement
+# 🎓 Online University Event Hall Reservation System
 
-The current manual process of hall booking in many colleges is inefficient and time-consuming. This project aims to automate the hall booking process to eliminate manual records and improve efficiency.
+## ✅ Problem Statement
+The current manual process of hall booking in many colleges is inefficient and time-consuming. This project automates the hall booking process to reduce manual records, avoid queues, and improve efficiency.
 
-## Proposed Solution
+---
 
-The University Hall Booking System is a web application that allows users (students/faculty) to book and cancel hall reservations online. This application streamlines the booking process, eliminates queues, and provides a user-friendly experience.
+## 💡 Proposed Solution
+The University Hall Booking System is a web application that allows users (students/faculty) to book and cancel hall reservations online. It streamlines the booking process and provides a simple, user-friendly experience for both users and administrators.
 
-## Technical Contents
+---
 
-- **Tools Used:** HTML, CSS, JavaScript, PHP, MySQL
-- **Domain:** Web Development / Database Management System DBMS
+## 🚀 Technical Contents
+- **Tools Used:** HTML, CSS, JavaScript, PHP, MySQL  
+- **Domain:** Web Development / Database Management System (DBMS)  
+- **Local Server:** XAMPP
 
-## Modules
+---
 
-1. **Admin Login:**
-   - User Credentials
-   - View Hall Bookings
-   - Update Hall
-   - Accept / Deny Booking
+## 👥 Modules
 
-2. **User Login:**
-   - Login Credentials
-   - Book / View Hall
-   - Cancel Bookings
-   - View Bookings
-   - Check Availability
+### 🔐 Admin Module
+- Admin login
+- View hall bookings
+- Update hall details
+- Accept / deny booking requests
 
-## Features
+### 👤 User Module
+- User login
+- Book hall
+- View hall availability
+- Cancel bookings
+- View booking history
 
+---
+
+## ✨ Features
 - Simplified hall booking process
-- Reduced paperwork
+- Reduced paperwork and manual records
 - Easy booking, cancellation, and availability checks
-- User-friendly and accessible application
+- User-friendly and accessible web interface
+- Role-based access (Admin/User)
 
-## Running the Project Locally
+---
 
-Follow these steps to run the project on your local machine using XAMPP:
+## 🛠 Running the Project Locally (XAMPP)
 
-1. **Clone the Repository:**
-git clone Online-College-Event-Hall-Reservation-System
-
-2. **Database Configuration:**
-- Create a MySQL database named 'emisha'.
-- Import the SQL dump file 'emisha.sql' from the 'database' directory into the 'emisha' database.
-
-3. **Web Server Setup:**
-- Place the project files in your XAMPP web server's document root directory (usually `htdocs`).
-- Start your Apache and MySQL services in XAMPP Control Panel.
-
-4. **Access the Application:**
-- Open your browser and visit `http://localhost/Online-College-Event-Hall-Reservation-System` to access the application.
-
-## Login Credentials
-
-### Admin Panel:
-- **Username:** admin
-- **Password:** admin
-
-### User Panel:
-- **Username:** user
-- **Password:** user
-
-The Hall Booking System aims to revolutionize the hall booking process by providing an efficient and user-friendly online platform. The system simplifies booking, reduces paperwork, and enhances accessibility for both users and administrators.
-
-Happy booking! 🎉
+1) **Clone the Repository**
+```bash
+git clone https://github.com/Anil358i/Online-Uni-Event-Hall-Reservation-System.git
